@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-font-awesome-5-brands: "Font Awesome 5 Brands";
+  --font-orbitron: Orbitron;
+  --font-font-awesome-5-free: "Font Awesome 5 Free";
+
+  /* font sizes */
+  --font-size-mini: 0.938rem;
+  --font-size-mid: 1.063rem;
+  --font-size-3xl: 1.375rem;
+  --font-size-lg: 1.125rem;
+  --font-size-base: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-13xl: 2rem;
+  --font-size-lgi: 1.188rem;
+  --font-size-7xl: 1.625rem;
+  --font-size-2xl: 1.313rem;
+  --font-size-45xl: 4rem;
+  --font-size-19xl: 2.375rem;
+  --font-size-32xl: 3.188rem;
+  --font-size-37xl: 3.5rem;
+  --font-size-15xl: 2.125rem;
+  --font-size-26xl: 2.813rem;
+  --font-size-53xl: 4.5rem;
+  --font-size-24xl: 2.688rem;
+  --font-size-39xl: 3.625rem;
+  --font-size-9xl: 1.75rem;
+  --font-size-5xl: 1.5rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #0f051d;
+  --color-gray-200: rgba(15, 5, 29, 0.1);
+  --color-gray-300: rgba(131, 131, 131, 0.25);
+  --color-slategray: #7b7583;
+  --color-gainsboro: #e5e5e5;
+
+  /* Gaps */
+  --gap-mid: 1.062rem;
+  --gap-xl: 1.25rem;
+  --gap-lgi-4: 1.212rem;
+  --gap-mini-2: 0.887rem;
+  --gap-7xl: 1.625rem;
+  --gap-4xl: 1.437rem;
+  --gap-5xl: 1.5rem;
+  --gap-11xl: 1.875rem;
+  --gap-41xl: 3.75rem;
+  --gap-2xl: 1.312rem;
+  --gap-22xl: 2.562rem;
+  --gap-61xl: 5rem;
+  --gap-21xl: 2.5rem;
+  --gap-56xl: 4.687rem;
+  --gap-lgi: 1.187rem;
+  --gap-18xl: 2.312rem;
+  --gap-mini: 0.937rem;
+  --gap-mid-4: 1.087rem;
+  --gap-3xs-2: 0.575rem;
+  --gap-5xs: 0.5rem;
+  --gap-10xl-6: 1.85rem;
+  --gap-base: 1rem;
+  --gap-46xl: 4.062rem;
+  --gap-13xl: 2rem;
+  --gap-17xl: 2.25rem;
+  --gap-3xs: 0.625rem;
+  --gap-6xl-4: 1.587rem;
+  --gap-8xs: 0.312rem;
+  --gap-2xs-1: 0.631rem;
+  --gap-3xl: 1.375rem;
+  --gap-lg: 1.125rem;
+  --gap-15xl: 2.125rem;
+  --gap-6xl: 1.562rem;
+  --gap-xs-8: 0.737rem;
+
+  /* Paddings */
+  --padding-xl: 1.25rem;
+  --padding-16xl: 2.187rem;
+  --padding-4xl: 1.437rem;
+  --padding-11xs: 0.125rem;
+  --padding-48xl: 4.187rem;
+  --padding-12xs-2: 0.012rem;
+  --padding-mini: 0.937rem;
+  --padding-12xs-1: 0.006rem;
+  --padding-267xl: 17.875rem;
+  --padding-77xl: 6rem;
+  --padding-2xl: 1.312rem;
+  --padding-lg: 1.125rem;
+  --padding-21xl: 2.5rem;
+  --padding-lgi: 1.187rem;
+  --padding-8xs: 0.312rem;
+  --padding-4xs: 0.562rem;
+  --padding-11xs-5: 0.093rem;
+  --padding-10xs: 0.187rem;
+  --padding-31xl: 3.125rem;
+  --padding-7xl: 1.625rem;
+  --padding-9xs-2: 0.2rem;
+  --padding-12xs: 0.062rem;
+  --padding-2xs-2: 0.637rem;
+  --padding-28xl: 2.937rem;
+  --padding-29xl: 3rem;
+  --padding-12xl: 1.937rem;
+  --padding-5xl: 1.5rem;
+  --padding-12xs-4: 0.025rem;
+  --padding-sm-2: 0.825rem;
+  --padding-3xs: 0.625rem;
+  --padding-smi-5: 0.781rem;
+  --padding-6xs: 0.437rem;
+  --padding-3xl: 1.375rem;
+  --padding-7xs: 0.375rem;
+  --padding-sm: 0.875rem;
+  --padding-41xl: 3.75rem;
+  --padding-20xl: 2.437rem;
+  --padding-39xl: 3.625rem;
+  --padding-6xl: 1.562rem;
+  --padding-19xl: 2.375rem;
+  --padding-5xs: 0.5rem;
+  --padding-11xl: 1.875rem;
+  --padding-xs: 0.75rem;
+  --padding-13xl: 2rem;
+  --padding-136xl: 9.687rem;
+  --padding-58xl: 4.812rem;
+  --padding-14xl: 2.062rem;
+  --padding-9xs-6: 0.225rem;
+  --padding-8xs-4: 0.275rem;
+  --padding-7xs-4: 0.337rem;
+  --padding-10xl: 1.812rem;
+  --padding-2xs-1: 0.631rem;
+  --padding-40xl: 3.687rem;
+  --padding-17xl: 2.25rem;
+  --padding-smi: 0.812rem;
+  --padding-225xl-4: 15.275rem;
+  --padding-36xl: 3.437rem;
+  --padding-8xl: 1.687rem;
+  --padding-3xs-6: 0.6rem;
+  --padding-25xl: 2.75rem;
+  --padding-42xl: 3.812rem;
+  --padding-mid: 1.062rem;
+  --padding-23xl: 2.625rem;
+  --padding-12xs-6: 0.037rem;
+  --padding-9xs-1: 0.193rem;
+  --padding-2xl-3: 1.331rem;
+  --padding-base: 1rem;
+  --padding-30xl: 3.062rem;
+  --padding-9xs: 0.25rem;
+  --padding-11xs-2: 0.075rem;
+  --padding-246xl: 16.562rem;
+  --padding-113xl: 8.25rem;
+  --padding-2xs: 0.687rem;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-5xl: 24px;
+  --br-9xs: 4px;
+  --br-13xl: 32px;
+  --br-6xl: 25px;
+  --br-8xs: 5px;
+  --br-xl: 20px;
+  --br-base: 16px;
+}
